@@ -19,8 +19,6 @@
   <properties>
     <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
-    <sonar.host.url>http://3.16.13.175:9000/</sonar.host.url>
-    <sonar.login>7be23eb7b7bec4fc871693f84fa30fd5596db08e</sonar.login>
   </properties>
 
   <modules>
@@ -28,13 +26,13 @@
     <module>webapp</module>
   </modules>
 
-  <!-- <distributionManagement>
+  <distributionManagement>
     <site>
       <id>site-server</id>
       <name>Test Project Site</name>
       <url>file:///tmp/maven-project-site</url>
     </site>
-  </distributionManagement> -->
+  </distributionManagement>
 
   <build>
     <plugins>
